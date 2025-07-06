@@ -43,7 +43,7 @@ console.log(inp.value)
 
 
 async function getdatabhai(input) {
-    let res = await fetch("http://localhost:3000/", {
+    let res = await fetch("https://ai-micro-version-2.onrender.com/", {
       method: "POST",   
       headers: {
         "Content-Type": "application/json"
